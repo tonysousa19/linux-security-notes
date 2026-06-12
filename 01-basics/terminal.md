@@ -10,3 +10,8 @@ pwd
 Example output:
 /home/tony
 ```
+### ls: Lists files and folders
+```bash
+ls
+```
+an useful option is ls -la, which lists hidden files and folders
