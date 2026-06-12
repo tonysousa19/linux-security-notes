@@ -118,7 +118,7 @@ Remove a directory:
 rm -r folder
 ```
 
-Observation: removed files are note moved to the trash.
+Observation: removed files are not moved to the trash.
 
 ----
 
