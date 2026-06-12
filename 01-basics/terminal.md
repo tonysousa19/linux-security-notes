@@ -67,14 +67,57 @@ It shows the content of a file in the terminal, it is useful for quickly reading
 Example: 
 ```bash
 cat /etc/passwd
-
-----
-
-
 ```
 
 ----
-### touch: creates an empty file
+### cp: Copies files and directories
+Copy a file
 ```bash
-touch notes.txt
+cp notes.txt backup.txt
 ```
+
+Copy to another directory:
+```bash
+cp notes.txt Documents/
+```
+
+Copy a folder:
+```bash
+cp -r folder backup/
+```
+
+The `-r` option copies directories recursively.
+
+----
+
+### mv: Moves or renames files
+
+Move a file:
+```bash
+mv notes.txt Documents/
+```
+
+Rename a file:
+```bash
+mv oldname.txt newname.txt
+```
+
+----
+
+### rm: Removes files and directories
+
+Remove a file:
+
+```bash
+rm notes.txt
+```
+
+Remove a directory:
+
+```bash
+rm -r folder
+```
+
+Observation: removed files are note moved to the trash.
+
+----
