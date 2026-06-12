@@ -3,5 +3,6 @@ The terminal is a command line interface used to interact with the system throug
 
 ## Basic Navigation
 ### pwd: Shows the current directory
-`` bash
+
+```bash
 pwd
