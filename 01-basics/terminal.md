@@ -7,6 +7,6 @@ The terminal is a command line interface used to interact with the system throug
 ```bash
 pwd
 
-### Example output:
+Example output:
 /home/tony
 ```
