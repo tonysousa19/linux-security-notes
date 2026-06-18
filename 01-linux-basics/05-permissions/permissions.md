@@ -30,9 +30,9 @@ Structure:
 -rwxr-xr--
 │││││││││
 │││││││└── Others
-│││││└──── Group
-│││└────── Owner
-│└──────── File type
+││││└──── Group
+│└────── Owner
+└──────── File type
 ```
 
 ---
